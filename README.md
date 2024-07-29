@@ -34,7 +34,8 @@ python -u -W ignore src/run.py --year 2023  --starti 0 --endi 1 --samples VJets 
 
 ## Submit jobs
 
-e.g. for Z+Jets
+e.g. for HH
 ```
+python3 src/condor/submit.py --processor ptSkimmer --tag 24Jul26 --files-per-job 20 --submit --samples HH --nano-version v12 --git-branch main --year 2023
 ```
 
