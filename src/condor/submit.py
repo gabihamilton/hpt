@@ -13,7 +13,7 @@ from math import ceil
 from pathlib import Path
 from string import Template
 
-from HH4b import run_utils
+from hpt import run_utils
 
 t2_redirectors = {
     "lpc": "root://cmseos.fnal.gov//",
