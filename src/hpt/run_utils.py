@@ -42,7 +42,7 @@ def check_branch(git_branch: str, allow_diff_local_repo: bool = False):
     """Check that specified git branch exists in the repo, and local repo is up-to-date"""
     assert not bool(
         os.system(
-            f'git ls-remote --exit-code --heads "https://github.com/cmantill/hpt" "{git_branch}"'
+            f'git ls-remote --exit-code --heads "git@github.com:cmantill/hpt" "{git_branch}"'
         )
     ), f"Branch {git_branch} does not exist"
 
