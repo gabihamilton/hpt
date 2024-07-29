@@ -55,7 +55,7 @@ def main(args):
 
     username = os.environ["USER"]
 
-    tag = f"{args.tag}_{args.nano_version}_{args.region}"
+    tag = f"{args.tag}_{args.nano_version}"
 
     # make eos dir
     pdir = Path(f"store/user/{username}/bbbb/{args.processor}/")
