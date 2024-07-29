@@ -9,8 +9,8 @@ First, create a virtual environment (`micromamba` is recommended):
 # Install: (the micromamba directory can end up taking O(1-10GB) so make sure the directory you're using allows that quota)
 "${SHELL}" <(curl -L micro.mamba.pm/install.sh)
 # You may need to restart your shell
-micromamba create -n hh4b python=3.10 -c conda-forge
-micromamba activate hh4b
+micromamba create -n hpt-env python=3.10 -c conda-forge
+micromamba activate hpt-env
 ```
 
 ### Installing package
@@ -36,6 +36,6 @@ python -u -W ignore src/run.py --year 2023  --starti 0 --endi 1 --samples VJets 
 
 e.g. for HH
 ```
-python3 src/condor/submit.py --processor ptSkimmer --tag 24Jul26 --files-per-job 20 --submit --samples HH --nano-version v12 --git-branch main --year 2023
+python src/condor/submit.py --processor ptSkimmer --tag 24Jul26 --files-per-job 20 --submit --samples HH --nano-version v12 --git-branch main --year 2023
 ```
 
