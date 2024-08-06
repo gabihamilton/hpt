@@ -32,7 +32,7 @@ done
 (
     r=3
     # shallow clone of single branch (keep repo size as small as possible)
-    while ! git clone --single-branch --branch $branch --depth=1 git@github.com:$gituser/hpt.git
+    while ! git clone --single-branch --branch $branch --depth=1 https://github.com/$gituser/hpt.git
     do
         ((--r)) || exit
         sleep 60
