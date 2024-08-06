@@ -4,19 +4,6 @@
 # python3 -m pip install correctionlib==2.0.0rc6
 # pip install --upgrade numpy==1.21.5
 
-#####
-# Make sure necessary paths are included
-#echo "PATH: $PATH"
-#which ssh
-#which git
-
-# Test SSH connection
-#ssh -T git@github.com
-
-# Ensure known_hosts is populated
-#ssh-keyscan github.com >> ~/.ssh/known_hosts
-#####
-
 # make dir for output
 mkdir outfiles
 
