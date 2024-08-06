@@ -7,11 +7,11 @@
 #####
 # Make sure necessary paths are included
 #echo "PATH: $PATH"
-which ssh
-which git
+#which ssh
+#which git
 
 # Test SSH connection
-ssh -T git@github.com
+#ssh -T git@github.com
 
 # Ensure known_hosts is populated
 ssh-keyscan github.com >> ~/.ssh/known_hosts
