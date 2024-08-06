@@ -6,7 +6,7 @@
 
 #####
 # Make sure necessary paths are included
-echo "PATH: $PATH"
+#echo "PATH: $PATH"
 which ssh
 which git
 
