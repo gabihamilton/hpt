@@ -24,6 +24,13 @@ cd hpt
 # Perform an editable installation
 pip install -e .
 ```
+To install the requirements
+```bash
+pip install -r requirements.txt
+pip install xrootd
+python3 -m pip install setuptools==59.5.0
+```
+
 
 ## Run locally
 
