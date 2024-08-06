@@ -14,7 +14,7 @@
 #ssh -T git@github.com
 
 # Ensure known_hosts is populated
-ssh-keyscan github.com >> ~/.ssh/known_hosts
+#ssh-keyscan github.com >> ~/.ssh/known_hosts
 #####
 
 # make dir for output
