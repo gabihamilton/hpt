@@ -19,7 +19,7 @@ micromamba activate hpt-env
 
 ```bash
 # Clone the repository
-git clone https://github.com/cmantill/hpt.git
+git clone git@github.com:gabihamilton/hpt.git
 cd hpt
 # Perform an editable installation
 pip install -e .
